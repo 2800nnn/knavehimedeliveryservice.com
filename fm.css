@@ -1,0 +1,20 @@
+@charset "UTF-8"
+.center{
+	margin: 0 auto;
+	text-align: left;
+}
+.center ul , .center ul li ol {
+	list-style-type: none;
+}
+.center ul li {
+	display: inline-block;
+	vertical-align: top;
+}
+.center ul li ol li {
+	display: list-item;
+	padding: 5px;
+}
+.center ul li ol li img {
+	width: 300px;
+	height: auto;
+}
