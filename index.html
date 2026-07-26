@@ -108,14 +108,13 @@
     width: 100%;             /* 割り当てられた幅いっぱいに表示 */
     height: auto;            /* 縦横比をキープ */
     vertical-align: middle;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* 影をつけて浮き出させる */
   }
 
   /* スマホ対応（画面幅が600px以下になったら縦並びにする） */
   @media (max-width: 400px) {
     .ad-content {
       flex-direction: column; /* 縦並びに変更 */
-      gap: 10px;              /* 縦の隙間を少し狭くする */
+      gap: 20px;              /* 縦の隙間を少し狭くする */
     }
   }
 </style>
