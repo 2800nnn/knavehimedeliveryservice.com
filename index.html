@@ -53,7 +53,7 @@
     left: 50%;
     transform: translate(-50%, -50%); /* 画面中央に配置 */
     width: 90%;
-    max-width: 800px;        /* 2枚並ぶので最大幅を少し広めに設定 */
+    max-width: 500px;        /* 2枚並ぶので最大幅を少し広めに設定 */
     z-index: 99999;          /* 他の要素より最前面に表示 */
     box-sizing: border-box;
     display: none;           /* 初期状態は非表示 */
@@ -112,7 +112,7 @@
   }
 
   /* スマホ対応（画面幅が600px以下になったら縦並びにする） */
-  @media (max-width: 600px) {
+  @media (max-width: 400px) {
     .ad-content {
       flex-direction: column; /* 縦並びに変更 */
       gap: 10px;              /* 縦の隙間を少し狭くする */
@@ -129,13 +129,13 @@
   <div class="ad-content">
     <!-- 1枚目の画像 -->
     <!-- hrefの中にリンク先のURLを入力します。target="_blank"で新しいタブで開きます。 -->
-      <img src="ad1.png" alt="広告画像1" class="ad-image">
+      <img src="ad1.png"  class="ad-image">
     </a>
     
     <!-- 2枚目の画像 -->
     <!-- こちらも同様にリンク先URLを入力してください。 -->
-    <a href="file:///Users/niwajunta/Downloads/wetyfatweb/explorer.html" target="_blank" rel="noopener noreferrer">
-      <img src="ad2.png" alt="広告画像2" class="ad-image">
+    <a href="https://online.fliphtml5.com/ewwcj/tjui/#p=1" target="_blank" rel="noopener noreferrer">
+      <img src="ad2.png"  class="ad-image">
     </a>
   </div>
 </div>
